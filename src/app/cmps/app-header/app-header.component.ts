@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-header',
   templateUrl: './app-header.component.html',
-  styleUrls: ['./app-header.component.scss'] // Corrected styleUrl to styleUrls
+  styleUrls: ['./app-header.component.scss'] 
 })
 export class AppHeaderComponent implements OnInit {
   user: any;

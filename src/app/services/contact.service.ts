@@ -186,25 +186,25 @@ export class ContactService {
                 "name": "Rosanne Shelton",
                 "email": "rosanneshelton@renovize.com",
                 "phone": "+1 (968) 454-3851"
+            },
+            {
+                "_id": "5a56640272c7dcdf59c3d411",
+                "name": "Pamela Nolan",
+                "email": "pamelanolan@renovize.com",
+                "phone": "+1 (986) 545-2166"
+            },
+            {
+                "_id": "5a5664029a8dd82a6178b15f",
+                "name": "Roy Cantu",
+                "email": "roycantu@renovize.com",
+                "phone": "+1 (929) 571-2295"
+            },
+            {
+                "_id": "5a5664028c096d08eeb13a8a",
+                "name": "Ollie Christian",
+                "email": "olliechristian@renovize.com",
+                "phone": "+1 (977) 419-3550"
             }
-            // {
-            //     "_id": "5a56640272c7dcdf59c3d411",
-            //     "name": "Pamela Nolan",
-            //     "email": "pamelanolan@renovize.com",
-            //     "phone": "+1 (986) 545-2166"
-            // },
-            // {
-            //     "_id": "5a5664029a8dd82a6178b15f",
-            //     "name": "Roy Cantu",
-            //     "email": "roycantu@renovize.com",
-            //     "phone": "+1 (929) 571-2295"
-            // },
-            // {
-            //     "_id": "5a5664028c096d08eeb13a8a",
-            //     "name": "Ollie Christian",
-            //     "email": "olliechristian@renovize.com",
-            //     "phone": "+1 (977) 419-3550"
-            // },
             // {
             //     "_id": "5a5664026c53582bb9ebe9d1",
             //     "name": "Nguyen Walls",
