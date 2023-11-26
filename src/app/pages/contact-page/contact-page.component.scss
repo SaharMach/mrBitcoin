@@ -1,0 +1,20 @@
+.contact-container {
+    position: relative;
+    height: minmax(200px, 800px);
+    .add-btn {
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+        font-size: 20px;
+        color: white;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        &:hover {
+            background-color:lighten(rgb(0, 0, 0), 30%);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+
+<a [routerLink]="['/contact', contact._id]" class="data">
+    <section  class="preview-container">
+        <!-- {{contact | json}} -->
+        <li  style="list-style: none;">
+            <img src="https://robohash.org/{{contact._id}}?set=set5" alt="">
+            <p>{{contact.name}}</p>
+        </li>
+    </section>
+</a>

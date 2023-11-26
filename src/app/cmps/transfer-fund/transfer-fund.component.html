@@ -1,0 +1,9 @@
+<section class="transfer">
+    <form (ngSubmit)="onTransfer()">
+        <label for="fund"></label>
+        <input type="number" name="fund" id="fund" [(ngModel)]="amount">
+        <div class="transfer">
+            <button class="clean-btn">Transfer</button>
+        </div>
+    </form>
+</section>

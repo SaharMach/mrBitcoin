@@ -1,0 +1,10 @@
+<div *ngIf="user.moves" class="moves-list">
+    <h2>Moves</h2>
+    <div *ngFor="let move of user.moves">
+        <div class="move">
+            <p>To: {{ move.contact.name }}</p>
+            <p>At: {{ move.at | date:'medium' }}</p>
+            <p>Amount: {{ move.amount }}</p>
+        </div>
+    </div>
+</div>

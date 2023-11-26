@@ -1,0 +1,16 @@
+<section class="contact-edit">
+    <a (click)="onBack()"><img src="/assets/icons for misterBitcoin/backnew.png" alt=""></a>
+    <form (ngSubmit)="onSaveContact()">
+        <img *ngIf="contactId" [src]="'https://robohash.org/' + contactId + '?set=set5'" alt="Contact Image">
+        <label for="name">Name</label>
+        <input [(ngModel)]="contact.name" type="text" name="name" id="name">
+
+        <label for="age">Phone</label>
+        <input [(ngModel)]="contact.phone" type="number" name="phone" id="phone">
+
+        <label for="age">Email</label>
+        <input [(ngModel)]="contact.email" type="email" name="email" id="email">
+
+        <button>Save</button>
+    </form>
+</section>

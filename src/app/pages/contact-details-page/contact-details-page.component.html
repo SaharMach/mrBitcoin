@@ -1,0 +1,20 @@
+<section *ngIf="contact$|async as contact" class="contact-details">
+    <div class="actions">
+
+        <a (click)="onBack()"><img src="/assets/icons for misterBitcoin/backnew.png" alt=""></a>
+        <a [routerLink]="['/contact/edit', contact._id]" class="data">
+            <img  src="/assets/icons for misterBitcoin/editnew.png" alt="">
+        </a>
+    </div>
+    <li  style="list-style: none;">
+        <img src="https://robohash.org/{{contact._id}}?set=set5" alt="">
+        <span>Name: {{contact.name}}</span>
+        <span>Phone: {{contact.phone}}</span>
+        <span>Email: {{contact.email}}</span>
+    </li>
+   
+    
+    <transfer-fund [contact]="contact"></transfer-fund>
+    <moves-list></moves-list>
+    <section class="delete-section" (click)="onDeleteContact(contact._id)"><button class="clean-btn delete-btn" >Delete this contact</button></section>
+</section>

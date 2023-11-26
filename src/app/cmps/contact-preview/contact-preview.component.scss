@@ -1,0 +1,19 @@
+.preview-container {
+    background-color: #dcdcdc;
+    width: 250px;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    li {
+        margin-top: 1px;        
+        display: flex;
+        gap: 10px;
+        font-weight: bold;
+        img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+    }
+    
+}

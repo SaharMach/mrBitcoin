@@ -1,0 +1,16 @@
+<div class="home-page">
+    <h1>Hello {{ user.name }}</h1>
+    <img *ngIf="user" src="https://robohash.org/{{user.name}}?set=set5" alt="{{user.name}}">
+    
+    <p><img src="assets/icons for misterBitcoin/coins.png" alt="">
+        Coins: {{ user.coins }}</p>
+    <p *ngIf="btcRate"><img src="assets/icons for misterBitcoin/bitcoin.png" alt="">
+        BTC: {{ btcRate }}</p>
+    
+    <moves-list></moves-list>
+
+    <!-- <button (click)="toggleStatistics()">Statistics</button> -->
+    <!-- <div *ngIf="isStatisticsOpen">
+        <statistics-page></statistics-page>
+    </div> -->
+</div>

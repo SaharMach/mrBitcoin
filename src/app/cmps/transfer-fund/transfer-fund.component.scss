@@ -1,0 +1,24 @@
+.transfer {
+    margin-top: 10px;
+    form {
+        gap: 2px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        input {
+            border-radius: 20px;
+            padding: 10px 10px;
+
+            
+        }
+        .transfer {
+            padding: 10px 10px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(217, 98, 98);
+            color: white;
+        }
+    }
+}

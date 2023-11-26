@@ -1,0 +1,12 @@
+<header class="container">
+    <h1 class="logo">MrBitcoin</h1>
+    <nav>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><img src="assets/icons for misterBitcoin/home.png" alt=""></a>
+        <a routerLink="/contact" routerLinkActive="active"><img src="assets/icons for misterBitcoin/users.png" alt=""></a>
+        <a routerLink="/statistics" routerLinkActive="active"><img src="assets/icons for misterBitcoin/increase.png" alt=""></a>
+        
+
+        <!-- <img *ngIf="user" src="https://robohash.org/{{user.name}}?set=set5" alt="{{user.name}}"> -->
+        <button *ngIf="user" (click)="onLogout()">Logout</button>
+    </nav>
+</header>
