@@ -1,5 +1,5 @@
 <div *ngIf="user.moves && user.moves.length > 0" class="moves-list">
-    <h2>Moves</h2>
+    <span>Last moves</span>
     <div *ngFor="let move of user.moves">
         <div class="move">
             <p>To: {{ move.contact.name }}</p>

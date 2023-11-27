@@ -4,6 +4,7 @@
     flex-direction: column;
     position: relative;
     width: 550px;
+    color: white;
     .delete-section {
         cursor: pointer;
         width: 60%;
@@ -34,6 +35,9 @@
             align-self: center;
             width: 150px;
             margin-bottom: 20px;
+            // filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 255, 255));
+            filter: invert(1);
+
         }
     }
 
@@ -50,6 +54,8 @@
             cursor: pointer;
             img {
                 width: 25px;
+                filter: invert(1);
+
             }
             &:hover {
                 background-color: darken(rgba(175, 175, 175, 0.165),30%);
