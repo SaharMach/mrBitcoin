@@ -5,14 +5,14 @@
     color: #ffffff;
     padding: 40px;
     border-radius: 8px;
-    max-width: 400px; /* to control the width */
+    max-width: 400px;
     margin: auto;
 }
 
 .sign-up img {
-    width: 100px; /* size the image appropriately */
+    width: 100px; 
     height: auto;
-    margin: 0 auto; /* centering the image */
+    margin: 0 auto; 
     display: block;
 }
 
@@ -23,27 +23,27 @@ form {
 }
 
 label {
-    font-size: 18px; /* larger, readable text */
+    font-size: 18px;
 }
 
 input[type="text"] {
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #ddd; /* subtle border */
-    border-radius: 4px; /* rounded corners */
+    border: 2px solid #ddd; 
+    border-radius: 4px; 
 }
 
 button {
     padding: 10px;
     border: none;
-    background-color: #007bff; /* Bright blue to stand out */
+    background-color: #007bff;
     color: white;
-    text-transform: uppercase; /* stylistic choice for buttons */
+    text-transform: uppercase;
     border-radius: 4px;
-    cursor: pointer; /* indicates it's clickable */
-    transition: background-color 0.3s; /* smooth transition for hover effect */
+    cursor: pointer;
+    transition: background-color 0.3s; 
 }
 
 button:hover {
-    background-color: #0056b3; /* darker shade of blue on hover */
+    background-color: #0056b3; 
 }
