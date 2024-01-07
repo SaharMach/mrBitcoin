@@ -6,7 +6,7 @@
             <p>
                 <strong>At:</strong> {{ move.at | date:'medium' }}</p>
             <!-- <p>Amount: ${{ move.amount }}</p> -->
-            <p><strong>Amount:</strong> ${{ move.amount | currency:'USD':'symbol':'1.0-0' }} ({{ move.btcRate }} BTC)</p>
+            <p><strong>Amount:</strong> {{ move.amount | currency:'USD':'symbol':'1.0-0' }} ({{ move.btcRate }} BTC)</p>
         </div>
     </div>
 </div>
