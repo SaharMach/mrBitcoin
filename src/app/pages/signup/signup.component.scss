@@ -2,9 +2,48 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 400px; /* to control the width */
+    margin: auto;
+}
+
+.sign-up img {
+    width: 100px; /* size the image appropriately */
+    height: auto;
+    margin: 0 auto; /* centering the image */
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 18px; /* larger, readable text */
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd; /* subtle border */
+    border-radius: 4px; /* rounded corners */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Bright blue to stand out */
+    color: white;
+    text-transform: uppercase; /* stylistic choice for buttons */
+    border-radius: 4px;
+    cursor: pointer; /* indicates it's clickable */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* darker shade of blue on hover */
 }

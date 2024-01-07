@@ -1,10 +1,12 @@
 <div *ngIf="user.moves && user.moves.length > 0" class="moves-list">
-    <span>Last moves</span>
+    <span>Last transfers</span>
     <div *ngFor="let move of user.moves">
         <div class="move">
             <p>To: {{ move.contact.name }}</p>
-            <p>At: {{ move.at | date:'medium' }}</p>
-            <p>Amount: {{ move.amount }}</p>
+            <p>
+                <strong>At:</strong> {{ move.at | date:'medium' }}</p>
+            <!-- <p>Amount: ${{ move.amount }}</p> -->
+            <p><strong>Amount:</strong> ${{ move.amount | currency:'USD':'symbol':'1.0-0' }} ({{ move.btcRate }} BTC)</p>
         </div>
     </div>
 </div>

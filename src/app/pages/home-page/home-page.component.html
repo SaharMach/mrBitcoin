@@ -4,15 +4,10 @@
     
     <div class="home-page-details">
         <p><img src="assets/icons for misterBitcoin/coins.png" alt="">
-            Coins: <strong>${{ user.coins }}</strong></p>
+            USD: <strong>{{ user.coins | currency:'USD':'symbol':'1.0-0' }}</strong></p>
         <p *ngIf="btcRate"><img src="assets/icons for misterBitcoin/bitcoin.png" alt="">
             BTC: <strong>{{ btcRate }}</strong></p>
     </div>
     
     <moves-list></moves-list>
-
-    <!-- <button (click)="toggleStatistics()">Statistics</button> -->
-    <!-- <div *ngIf="isStatisticsOpen">
-        <statistics-page></statistics-page>
-    </div> -->
 </div>

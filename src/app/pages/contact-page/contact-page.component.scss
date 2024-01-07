@@ -1,5 +1,4 @@
 .contact-container {
-    position: relative;
     height: minmax(200px, 800px);
     .add-btn {
         cursor: pointer;
@@ -10,9 +9,9 @@
         font-size: 20px;
         color: white;
         margin-bottom: 10px;
-        position: absolute;
-        bottom: 0px;
-        right: 0;
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
         &:hover {
             background-color:lighten(rgb(0, 0, 0), 30%);
         }

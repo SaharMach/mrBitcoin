@@ -7,7 +7,7 @@ import 'chartjs-adapter-date-fns';
   selector: 'market-price-chart',
   template: `
     <div class="chart">
-      <canvas #chartCanvas style="height: 400px; max-width: 600px;"></canvas>
+      <canvas #chartCanvas style="height: 400px; max-width: 100%;"></canvas>
     </div>
   `,
   styles: [``]
